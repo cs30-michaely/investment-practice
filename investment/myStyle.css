@@ -1,0 +1,45 @@
+
+/*Fonts*/
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+  font-family: playfair;
+  src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family: crimsonT;
+  src: url(fonts/CrimsonText-Regular.ttf);
+}
+
+/*Nav Bar*/
+header {
+  overflow: auto;
+  background-color: aqua;
+}
+
+#logo {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+li {
+  display: inline;
+  font-family: roboto;
+  float: left;
+  
+}
+
+li:hover {
+  color: orangered;
+}
