@@ -1,4 +1,8 @@
 
+* {
+	box-sizing: border-box;
+}
+
 /*Fonts*/
 
 @font-face {
@@ -19,27 +23,47 @@
 /*Nav Bar*/
 header {
   overflow: auto;
-  background-color: aqua;
+/*  border: solid red 1px;*/
+  
 }
 
 #logo {
   float: left;
 }
 
-ul {
+#navbar {
   list-style-type: none;
-  margin: 0;
+  margin-top: 30px;
   padding: 0;
+  overflow: auto;
+  width: 50%;
   float: right;
 }
 
-li {
+.section {
   display: inline;
   font-family: roboto;
   float: left;
+  margin-right: 5%;
+  text-align: center;
   
 }
 
-li:hover {
+.section a {
+  display: block;
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+}
+
+.section a:hover {
   color: orangered;
+  background-color: floralwhite;
+}
+
+/* Above the Fold*/
+
+#foldImg {
+  width: 100%;
+  height: half;
 }
