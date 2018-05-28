@@ -1,6 +1,8 @@
 
 * {
 	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /*Fonts*/
@@ -22,9 +24,10 @@
 
 /*Nav Bar*/
 header {
+ 
   overflow: auto;
-/*  border: solid red 1px;*/
-  
+  background-color: rgba(255, 255, 255, 0.7);
+/*  border: solid red 1px;*/  
 }
 
 #logo {
@@ -63,7 +66,9 @@ header {
 
 /* Above the Fold*/
 
-#foldImg {
-  width: 100%;
-  height: half;
+#aboveFold {
+  background: url("img/chartTableBG.jpg") no-repeat center fixed;
+  background-size: cover;
+  height: 100vh;
+  
 }

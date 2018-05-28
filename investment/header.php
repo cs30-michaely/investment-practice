@@ -1,11 +1,6 @@
-<head>
-  <link rel="stylesheet" type="text/css" href="myStyle.css">
-    
-</head>
 
-<body>
   <header>
-    <img id="logo" src="img/companyLogo.jpg">
+    <img id="logo" src="img/companyLogo.png">
     <ul id="navbar">
       <li class="section"><a href="#">Products</a></li>
       <li class="section"><a href="#">Staff</a></li>
